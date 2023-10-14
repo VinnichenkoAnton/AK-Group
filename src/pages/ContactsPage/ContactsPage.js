@@ -1,12 +1,9 @@
 import { Helmet } from 'react-helmet';
 
 import Header from '../../layouts/Header/Header';
-import Slider from '../../components/Slider/Slider';
 import ContactsInfo from './sections/ContactsInfo/ContactsInfo';
 import ContactsForm from './sections/ContactsForm/ContactsForm';
 import Footer from '../../layouts/Footer/Footer';
-
-import { sliderImagesList } from '../../data/data';
 
 const ContactsPage = () => {
   return (
@@ -14,12 +11,11 @@ const ContactsPage = () => {
       <Helmet>
         <meta
           name="description"
-          content="Сторінка контактів сайту компанії Оберіг. Оберіг - охоронная компанія для фізичних осіб та організацій в с.Гатне"
+          content="Сторінка контактів сайту AK GROUP INSURANCE BROKERS. AK GROUP INSURANCE BROKERS - БРОКЕРСЬКІ ПОСЛУГИ У СФЕРІ СТРАХУВАННЯ. АДМІНІСТРУВАННЯ ПРИ ВРЕГУЛЮВАННІ ЗБИТКІВ. ПРОФЕСІЙНИЙ КОНСАЛТИНГ"
         />
-        <title>Оберіг</title>
+        <title>AK GROUP INSURANCE BROKERS</title>
       </Helmet>
       <Header />
-      <Slider controls={true} sliderContent={sliderImagesList} />
       <ContactsInfo />
       <ContactsForm />
       <Footer />

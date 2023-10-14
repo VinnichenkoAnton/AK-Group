@@ -1,0 +1,46 @@
+@import '../../../../styles/variables.module.scss';
+.introduction {
+    min-height: 804px;
+    position: relative;
+    &__wrapper {
+        padding-top: 50px;
+    }
+    &__block {
+        position: absolute;
+        top:45%;
+        left: 5%;
+        max-width: 390px;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        color: $black-color;
+    }
+    &__text {
+        color: $black-color;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 16px;
+    }
+    &__buttons {
+        margin-top: 32px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__button {
+        width: 180px;
+    }
+    &__img {
+        position: absolute;
+        top: 120px;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 590px;
+        height: 680px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

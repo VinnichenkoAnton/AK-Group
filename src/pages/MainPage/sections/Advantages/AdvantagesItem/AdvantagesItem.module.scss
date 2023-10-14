@@ -1,8 +1,8 @@
 @import '../../../../../styles/variables.module.scss';
 .advitem {
-    max-width: 286px;
-    height: 130px;
-    margin-bottom: 30px;
+    max-width: 380px;
+    height: 250px;
+    margin-bottom: 16px;
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -14,11 +14,14 @@
         color: $black-color;
     }
     &__icn {
+        display: block;
         justify-self: start;
         width: 70px;
         height: 70px;
         path {
             fill: $main-color;
+            width: 100%;
+            height: 100%;
         }
         &_right {
             order: +1;

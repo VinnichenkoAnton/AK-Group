@@ -10,14 +10,13 @@ import ContactUs from '../../components/ContactUs/ContactUs';
 import Footer from '../../layouts/Footer/Footer';
 
 import { firstTabList } from '../../data/data';
-import { secondTabList } from '../../data/data';
 
 const SingleProductPage = () => {
   const [singleProduct, setSingleProduct] = useState(null);
   const { id } = useParams();
 
   useEffect(() => {
-    const jointTabLists = [...firstTabList, ...secondTabList];
+    const jointTabLists = [...firstTabList];
     const filteredList = jointTabLists.filter((item) => item.id === id);
     setSingleProduct(filteredList[0]);
   }, [id]);
@@ -34,15 +33,13 @@ const SingleProductPage = () => {
               name="description"
               content={`На цій сторінці ви можете більше дізнатися про нашу послугу ${singleProduct.title}`}
             />
-            <title>{`Оберіг - ${singleProduct.title}`}</title>
+            <title>{`AK GROUP INSURANCE BROKERS - ${singleProduct.title}`}</title>
           </Helmet>{' '}
           <SingleProduct
             key={singleProduct.id}
             img={singleProduct.img}
             title={singleProduct.title}
             description={singleProduct.description}
-            monthprice={singleProduct.monthprice}
-            eqvprice={singleProduct.eqvprice}
           />
         </>
       ) : null}

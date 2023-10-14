@@ -1,0 +1,29 @@
+@import '../../styles/variables.module.scss';
+
+.heading1 {
+    max-width: fit-content;
+    position: relative;
+    display: block;
+    margin: 0 auto 0 auto;
+    font-size: 30px;
+    color: $main-color;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    /* 768 */
+    .heading1 {
+        text-align: center;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* 576 */
+    .heading1 {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+}

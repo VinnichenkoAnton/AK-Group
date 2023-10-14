@@ -10,45 +10,45 @@ import sliderImage1 from '../resources/slider/imgs/img1.jpeg';
 import sliderImage2 from '../resources/slider/imgs/img2.jpg';
 import sliderImage3 from '../resources/slider/imgs/img3.jpg';
 
+//carouselImagesList
+import carouselImage1 from '../resources/carousel/arx.jpg';
+import carouselImage2 from '../resources/carousel/uniqua.jpg';
+import carouselImage3 from '../resources/carousel/usg.jpg';
+import carouselImage4 from '../resources/carousel/colonnade.jpg';
+import carouselImage5 from '../resources/carousel/kniaja.jpg';
+import carouselImage6 from '../resources/carousel/arsenal.jpg';
+import carouselImage7 from '../resources/carousel/ingo.jpg';
+import carouselImage8 from '../resources/carousel/kraina.jpg';
+import carouselImage9 from '../resources/carousel/tas.jpg';
+import carouselImage10 from '../resources/carousel/kraina.jpg';
+
 //numericInfoList
 import established from '../resources/numericInfo/established.svg';
 import workers from '../resources/numericInfo/workers.svg';
 import customers from '../resources/numericInfo/customers.svg';
-import surveillance from '../resources/numericInfo/surveillance.svg';
+import spheres from '../resources/numericInfo/spheres.svg';
+import payment from '../resources/numericInfo/payment.svg';
+import crowd from '../resources/numericInfo/crowd.svg';
 
 //firstTabList
-import { ReactComponent as Videoicn } from '../resources/tabs/private/icns/videoicn.svg';
-import { ReactComponent as Houseicn } from '../resources/tabs/private/icns/houseicn.svg';
-import { ReactComponent as Flaticn } from '../resources/tabs/private/icns/flaticn.svg';
-import { ReactComponent as Alarmicn } from '../resources/tabs/private/icns/alarmicn.svg';
-import { ReactComponent as Complexicn } from '../resources/tabs/private/icns/complexicn.svg';
-import video from '../resources/tabs/private/imgs/video.jpg';
-import house from '../resources/tabs/private/imgs/house.jpg';
-import flat from '../resources/tabs/private/imgs/flat.jpg';
-import alarm from '../resources/tabs/private/imgs/alarm.jpg';
-import complex from '../resources/tabs/private/imgs/complex.jpg';
-
-//secondTabList
-import { ReactComponent as Enterpreneuricn } from '../resources/tabs/business/icns/enterpreneuricn.svg';
-import { ReactComponent as Storeicn } from '../resources/tabs/business/icns/storeicn.svg';
-import { ReactComponent as Officeicn } from '../resources/tabs/business/icns/officeicn.svg';
-import { ReactComponent as Buildingicn } from '../resources/tabs/business/icns/buildingicn.svg';
-import { ReactComponent as Warehouseicn } from '../resources/tabs/business/icns/warehouseicn.svg';
-import { ReactComponent as Industryicn } from '../resources/tabs/business/icns/industryicn.svg';
-import enterpreneur from '../resources/tabs/business/imgs/enterpreneur.jpg';
-import store from '../resources/tabs/business/imgs/store.jpg';
-import office from '../resources/tabs/business/imgs/office.jpeg';
-import building from '../resources/tabs/business/imgs/building.jpg';
-import warehouse from '../resources/tabs/business/imgs/warehouse.jpg';
-import industry from '../resources/tabs/business/imgs/industry.jpg';
+import { ReactComponent as Caraccidenticn } from '../resources/tabs/business/icns/caraccidenticn.svg';
+import { ReactComponent as Houseicn } from '../resources/tabs/business/icns/houseicn.svg';
+import { ReactComponent as Proficn } from '../resources/tabs/business/icns/professionalicn.svg';
+import { ReactComponent as Loadicn } from '../resources/tabs/business/icns/loadicn.svg';
+import { ReactComponent as Individualicn } from '../resources/tabs/business/icns/individualicn.svg';
+import { ReactComponent as Agricultureicn } from '../resources/tabs/business/icns/agricultureicn.svg';
+import caraccident from '../resources/tabs/business/imgs/caraccident.jpg';
+import house from '../resources/tabs/business/imgs/house.jpg';
+import prof from '../resources/tabs/business/imgs/professional.jpg';
+import load from '../resources/tabs/business/imgs/load.jpg';
+import individual from '../resources/tabs/business/imgs/individual.jpg';
+import agriculture from '../resources/tabs/business/imgs/agriculture.jpg';
 
 //advantagesList
-import { ReactComponent as Locationicn } from '../resources/advantages/icns/locationicn.svg';
-import { ReactComponent as Allinclusiveicn } from '../resources/advantages/icns/allinclusiveicn.svg';
-import { ReactComponent as Responsibilityicn } from '../resources/advantages/icns/responsibilityicn.svg';
-import { ReactComponent as Remotecntrlicn } from '../resources/advantages/icns/remotectrlicn.svg';
 import { ReactComponent as Professionalicn } from '../resources/advantages/icns/professionalicn.svg';
-import { ReactComponent as Individualicn } from '../resources/advantages/icns/individualicn.svg';
+import { ReactComponent as Tenderlicn } from '../resources/advantages/icns/tendericn.svg';
+import { ReactComponent as Lossesicn } from '../resources/advantages/icns/lossesicn.svg';
+import { ReactComponent as Supporticn } from '../resources/advantages/icns/supporticn.svg';
 
 //reviewsList
 import reviewImage1 from '../resources/reviews/review_1.jpg';
@@ -69,21 +69,21 @@ import { ReactComponent as YoutubeIcn } from '../resources/footer/youtubeicn.svg
 export const headerLinksList = [
   {
     id: uuidv4(),
-    href: 'mailto:mail@gmail.com',
+    href: 'mailto:info@ak-group.net',
     Icn: Emailicn,
-    text: 'mail@gmail.com',
+    text: 'info@ak-group.net',
   },
   {
     id: uuidv4(),
-    href: 'tel:+80735707777',
+    href: 'tel:+380503131012',
     Icn: Phoneicn,
-    text: '(073)570 77 77',
+    text: '(050)313 10 12',
   },
   {
     id: uuidv4(),
-    href: 'https://goo.gl/maps/CbXq5kECDMpY6wof7',
+    href: 'https://goo.gl/maps/BftpLjTLRnuoZi4ZA',
     Icn: Pointicn,
-    text: 'вул.Київська, 138, Гатне, Україна',
+    text: 'Софіївська Борщагівка, пр-т Мартинова, 18, оф. 54',
   },
 ];
 
@@ -107,171 +107,149 @@ export const navigationList = [
 ];
 
 export const sliderImagesList = [
-  { img: sliderImage1, alt: 'Фото Оберіг 1' },
-  { img: sliderImage2, alt: 'Фото Оберіг 2' },
-  { img: sliderImage3, alt: 'Фото Оберіг 3' },
+  { id: uuidv4(), img: sliderImage1, alt: 'Логотип 1' },
+  { id: uuidv4(), img: sliderImage2, alt: 'Логотип 2' },
+  { id: uuidv4(), img: sliderImage3, alt: 'Логотип 3' },
+];
+
+export const carouselImagesList = [
+  { id: uuidv4(), img: carouselImage1, alt: 'АТ «СК «АРКС» ' },
+  { id: uuidv4(), img: carouselImage2, alt: 'ПрАТ «СК «УНІКА»' },
+  { id: uuidv4(), img: carouselImage3, alt: 'ПАТ СК «УСГ»' },
+  { id: uuidv4(), img: carouselImage4, alt: 'ПрАТ «СК «КОЛОННЕЙД УКРАЇНА»' },
+  { id: uuidv4(), img: carouselImage5, alt: 'ПрАТ "УСК "КНЯЖА ВІЄННА ІНШУРАНС ГРУП"' },
+  { id: uuidv4(), img: carouselImage8, alt: 'ПАТ «СК «КРАЇНА»' },
+  { id: uuidv4(), img: carouselImage6, alt: 'ПрАТ «СК «АРСЕНАЛ СТРАХУВАННЯ»' },
+  { id: uuidv4(), img: carouselImage7, alt: 'АТ «СК «IНГО»' },
+  { id: uuidv4(), img: carouselImage9, alt: 'ПрАТ «СГ «ТАС» ' },
+  { id: uuidv4(), img: carouselImage10, alt: 'ПрАТ «СК «БРОКБІЗНЕС»' },
 ];
 
 export const numericInfoList = [
-  { id: uuidv4(), img: established, title: 'Років', amount: '10' },
-  { id: uuidv4(), img: workers, title: 'Працівників', amount: '100' },
-  { id: uuidv4(), img: customers, title: 'Клієнтів', amount: '200' },
-  { id: uuidv4(), img: surveillance, title: "Об'єктів", amount: '50' },
+  {
+    id: uuidv4(),
+    img: established,
+    title: 'Років',
+    description: 'Наш досвід у сфері страхування',
+    amount: '14',
+  },
+  {
+    id: uuidv4(),
+    img: workers,
+    title: 'Компаній',
+    description: 'Нам довіряють свою безпеку',
+    amount: '60',
+  },
+  {
+    id: uuidv4(),
+    img: customers,
+    title: 'Відсотків',
+    description: 'Щорічних пролонгацій договорів страхування',
+    amount: '95',
+  },
+  {
+    id: uuidv4(),
+    img: spheres,
+    title: 'Сфер діяльності ',
+    description: 'Наших корпоративних Клієнтів',
+    amount: '13',
+  },
+  {
+    id: uuidv4(),
+    img: payment,
+    title: 'Мільйонів',
+    description: 'Страхових виплат отримали наші Клієнти',
+    amount: '45',
+  },
+  {
+    id: uuidv4(),
+    img: crowd,
+    title: 'Людей',
+    description: 'Щороку укладають з нашою допомогою ДМС',
+    amount: '5000',
+  },
 ];
 
 export const firstTabList = [
   {
     id: 'ft1',
-    title: 'Відеоспостереження',
-    img: video,
-    icn: Videoicn,
+    title: 'АВТОТРАНСПОРТНЕ СТРАХУВАННЯ',
+    img: caraccident,
+    icn: Caraccidenticn,
     description:
-      'Безкоштовна установка. Базовий комплект бездротового обладнання. Цілодобовий моніторинг за об’єктом технічними засобами охорони. Виїзд групи швидкого реагування на сигнал тривоги',
-    eqvprice: 'Від 5000 грн',
-    monthprice: 'Від 300грн/місяць',
+      'КАСКО, обов’язкова та добровільна цивільно-правова відповідальність, Зелена карта, страхування водіїв та пасажирів від нещасного випадку.',
   },
   {
     id: 'ft2',
-    title: 'Охорона будинків',
+    title: 'СТРАХУВАННЯ МАЙНА',
     img: house,
     icn: Houseicn,
     description:
-      'Безкоштовна установка. Базовий комплект бездротового обладнання. Цілодобовий моніторинг за об’єктом технічними засобами охорони. Виїзд групи швидкого реагування на сигнал тривоги',
-    eqvprice: 'Від 5000 грн',
-    monthprice: 'Від 300грн/місяць',
+      'Страхування нерухомого майна, обладнання, включаючи перерву у виробництві, страхування будівельно-монтажних ризиків тощо.',
   },
   {
     id: 'ft3',
-    title: 'Охорона квартир',
-    img: flat,
-    icn: Flaticn,
+    title: 'СТРАХУВАННЯ ПРОФ. ВІДПОВІДАЛЬНОСТІ',
+    img: prof,
+    icn: Proficn,
     description:
-      'Безкоштовна установка. Базовий комплект бездротового обладнання. Цілодобовий моніторинг за об’єктом технічними засобами охорони. Виїзд групи швидкого реагування на сигнал тривоги',
-    eqvprice: 'Від 5000 грн',
-    monthprice: 'Від 300грн/місяць',
+      'Страхування відповідальності юристів, аудиторів, ТОП менеджменту, кібер-страхування, страхування відповідальності за забруднення навколишнього середовища та ін.',
   },
   {
     id: 'ft4',
-    title: 'Охоронна сигналізація',
-    img: alarm,
-    icn: Alarmicn,
+    title: 'СТРАХУВАННЯ ВАНТАЖІВ',
+    img: load,
+    icn: Loadicn,
     description:
-      'Безкоштовна установка. Базовий комплект бездротового обладнання. Цілодобовий моніторинг за об’єктом технічними засобами охорони. Виїзд групи швидкого реагування на сигнал тривоги',
-    eqvprice: 'Від 5000 грн',
-    monthprice: 'Від 300грн/місяць',
+      'Страхування вантажів, відповідальності експедитора/перевізника, страхування морських суден та відповідальності судновласника.',
   },
   {
     id: 'ft5',
-    title: 'Охорона житлових комплексів',
-    img: complex,
-    icn: Complexicn,
+    title: 'ОСОБИСТІ ВИДИ СТРАХУВАННЯ',
+    img: individual,
+    icn: Individualicn,
     description:
-      'Безкоштовна установка. Базовий комплект бездротового обладнання. Цілодобовий моніторинг за об’єктом технічними засобами охорони. Виїзд групи швидкого реагування на сигнал тривоги',
-    eqvprice: 'Від 5000 грн',
-    monthprice: 'Від 300грн/місяць',
-  },
-];
-
-export const secondTabList = [
-  {
-    id: 'st1',
-    title: 'Охорона підприємств',
-    img: enterpreneur,
-    icn: Enterpreneuricn,
-    description:
-      'Безкоштовна установка. Базовий комплект бездротового обладнання. Цілодобовий моніторинг за об’єктом технічними засобами охорони. Виїзд групи швидкого реагування на сигнал тривоги',
-    eqvprice: 'Від 5000 грн',
-    monthprice: 'Від 300грн/місяць',
-  },
-  {
-    id: 'st2',
-    title: 'Охорона магазинів',
-    img: store,
-    icn: Storeicn,
-    description:
-      'Безкоштовна установка. Базовий комплект бездротового обладнання. Цілодобовий моніторинг за об’єктом технічними засобами охорони. Виїзд групи швидкого реагування на сигнал тривоги',
-    eqvprice: 'Від 5000 грн',
-    monthprice: 'Від 300грн/місяць',
-  },
-  {
-    id: 'st3',
-    title: 'Охорона офісів',
-    img: office,
-    icn: Officeicn,
-    description:
-      'Безкоштовна установка. Базовий комплект бездротового обладнання. Цілодобовий моніторинг за об’єктом технічними засобами охорони. Виїзд групи швидкого реагування на сигнал тривоги',
-    eqvprice: 'Від 5000 грн',
-    monthprice: 'Від 300грн/місяць',
-  },
-  {
-    id: 'st4',
-    title: 'Охоронна будівництва',
-    img: building,
-    icn: Buildingicn,
-    description:
-      'Безкоштовна установка. Базовий комплект бездротового обладнання. Цілодобовий моніторинг за об’єктом технічними засобами охорони. Виїзд групи швидкого реагування на сигнал тривоги',
-    eqvprice: 'Від 5000 грн',
-    monthprice: 'Від 300грн/місяць',
-  },
-  {
-    id: 'st5',
-    title: 'Охорона нежитлових приміщень',
-    img: warehouse,
-    icn: Warehouseicn,
-    description:
-      'Безкоштовна установка. Базовий комплект бездротового обладнання. Цілодобовий моніторинг за об’єктом технічними засобами охорони. Виїзд групи швидкого реагування на сигнал тривоги',
-    eqvprice: 'Від 5000 грн',
-    monthprice: 'Від 300грн/місяць',
+      'ДМС, нещасний випадок, страховка для виїзду за кордон, страхування життя, страхування на випадок критичних захворювань.',
   },
   {
     id: 'st6',
-    title: "Охорона промислових об'єктів",
-    img: industry,
-    icn: Industryicn,
+    title: 'СТРАХУВАННЯ АГРАРНИХ РИЗИКІВ',
+    img: agriculture,
+    icn: Agricultureicn,
     description:
-      'Безкоштовна установка. Базовий комплект бездротового обладнання. Цілодобовий моніторинг за об’єктом технічними засобами охорони. Виїзд групи швидкого реагування на сигнал тривоги',
-    eqvprice: 'Від 5000 грн',
-    monthprice: 'Від 300грн/місяць',
+      'Страхування посівів від повної або часткової загибелі, страхування майбутнього врожаю, страхування багаторічних насаджень, страхування худоби.',
   },
 ];
 
 export const advantagesList = [
   {
     id: uuidv4(),
-    subtitle: 'Працюємо під ключ',
+    subtitle: 'Професійне консультування',
     description:
-      'Беремо на себе всі питання: охоронна сигналізація, сервісне обслуговування, цілодобовий захист',
-    icn: Allinclusiveicn,
-  },
-  {
-    id: uuidv4(),
-    subtitle: 'Ми завжди поряд',
-    description: 'Групи швидкого реагування завжди на чергуванні поряд з Вами. Прибуття 2-10 хв',
-    icn: Locationicn,
-  },
-  {
-    id: uuidv4(),
-    subtitle: 'Відповідальність',
-    description: "Ми сумлінно виконуємо свої обов'язки і виїзджаємо на кожен виклик",
-    icn: Responsibilityicn,
-  },
-  {
-    id: uuidv4(),
-    subtitle: 'Пультова система',
-    description: 'Власний пульт моніторингу працює 24/7',
-    icn: Remotecntrlicn,
-  },
-  {
-    id: uuidv4(),
-    subtitle: 'Професіоналізм',
-    description: 'У нас працюють лише висококваліфіковані спеціалісти',
+      'Страховий консалтинг - основа брокерського бізнесу! Для своїх Клієнтів ми проводимо оцінку всіх можливих ризиків, повний аналіз діючих договорів та програм страхування, дослідження страхового ринку та багато іншого!',
     icn: Professionalicn,
   },
   {
     id: uuidv4(),
-    subtitle: 'Персональний підхід',
-    description: 'Ми працюємо з клієнтом індивідуально для задоволення потреб кожного',
-    icn: Individualicn,
+    subtitle: 'Урегулювання збитків та сервіс',
+    description:
+      'Ми завжди відстоюємо інтереси наших Клієнтів, беремо на себе підготовку, отримання та погодження усіх необхідних документів, сприяємо швидкому і якісному урегулюванню страхових випадків у повному обсязі!',
+    icn: Lossesicn,
+  },
+  {
+    id: uuidv4(),
+    subtitle: 'Тендер серед страхових компаній',
+    description:
+      'Глибокі знання страхового ринку, доступ до закритої інформації, а також відпрацьована тендерна процедура дають нам можливість розміщувати навіть найскладніші ризики виключно у надійних Страховиків, з якими ми працюємо багато років та особисто знаємо ТОП-менеджмент!',
+    icn: Tenderlicn,
+  },
+
+  {
+    id: uuidv4(),
+    subtitle: 'Цілодобова підтримка',
+    description:
+      'Наші професіонали 24 години на добу знаходяться на зв’язку з Клієнтами, готові у будь-який час проконсультувати, допомогти та за необхідності виїхати на допомогу при настанні страхового випадку!',
+    icn: Supporticn,
   },
 ];
 
@@ -281,21 +259,21 @@ export const reviewsList = [
     alt: 'Фото першого автора',
     title: 'Ложкіна Олена',
     description:
-      'Задоволена роботою компанії на всі 100, кілька разів спрацювувала сигналізація, екіпаж прибуває буквально за пару хвилин. Лайк за оперативність!!!',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
   },
   {
     img: reviewImage2,
     alt: 'Фото другого автора',
-    title: 'Миль Богдан',
+    title: 'Міль Богдан',
     description:
-      'Якість охорони на рівні. Ціни доступні. Рекомендую. Користуюсь послугами компанії уже більше року.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
   },
   {
     img: reviewImage3,
     alt: 'Фото третього автора',
     title: 'Кобка Анастасія',
     description:
-      'Все дуже оперативно і якісно: лишила на сайті заявку, менш ніж через 2 хвилини зателефонував менеджер, який проконсультував мене максимально повно і зрозуміло, відповівши на всі питання, які в мене виникли як у дуже далекої від техніки людини)) Уже наступного ранку працівники встановили всі датчики',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
   },
 ];
 
@@ -303,7 +281,7 @@ export const howToInstallList = [
   { id: uuidv4(), title: 'Зателефонуйте/залиште заявку нашому менеджеру', icn: ContactIcn },
   { id: uuidv4(), title: 'Дізнайтеся все необхідне та домовтесь про зустріч', icn: InfoIcn },
   { id: uuidv4(), title: 'Зустріч та складання кошторису', icn: MeetingIcn },
-  { id: uuidv4(), title: "Підписання договору та взяття об'єкта під охорону", icn: ProtectedIcn },
+  { id: uuidv4(), title: 'Підписання договору', icn: ProtectedIcn },
 ];
 
 export const footerSocialList = [

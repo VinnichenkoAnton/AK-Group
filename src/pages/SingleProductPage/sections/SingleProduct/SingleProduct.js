@@ -3,7 +3,7 @@ import Title from '../../../../components/Title/Title';
 
 import classes from './SingleProduct.module.scss';
 
-const SingleProduct = ({ img, title, description, eqvprice, monthprice }) => {
+const SingleProduct = ({ img, title, description }) => {
   return (
     <section className={classes.product}>
       <Container>
@@ -12,15 +12,9 @@ const SingleProduct = ({ img, title, description, eqvprice, monthprice }) => {
             <img src={img} alt={title} />
           </div>
           <div className={classes.product__wrapper}>
-            <Title text={title} />
+            <Title text={title} className={classes.product__title} />
             <div className={classes.product__description}>
               Детальна інформація: <span>{description}</span>
-            </div>
-            <div className={classes.product__price}>
-              Вартість обладнання: <span>{eqvprice}</span>
-            </div>
-            <div className={classes.product__price}>
-              Щомісячна абонплата : <span>{monthprice}</span>
             </div>
           </div>
         </div>

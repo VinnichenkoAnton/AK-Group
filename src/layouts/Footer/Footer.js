@@ -19,7 +19,6 @@ const Footer = () => {
             <div className={classes.footer__icn}>
               <img src={logo} alt="Логотип" />
             </div>
-            <h1 className={classes.footer__title}>Оберіг</h1>
           </NavLink>
           <div className={classes.footer__contacts}>
             <div className={classes.footer__social}>

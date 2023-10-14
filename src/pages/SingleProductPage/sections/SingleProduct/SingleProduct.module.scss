@@ -22,17 +22,9 @@
         flex-direction: column;
         text-align: center;
     }
-    &__country {
+    &__title {
+        margin: 0 0 70px 0;
         text-align: left;
-        margin-top: 25px;
-        font-weight: 700;
-        font-size: 14px;
-        color: $black-color;
-        span {
-            font-weight: 400;
-            font-size: 14px;
-            color: $black-color;
-        }
     }
     &__description {
         max-width: 418px;
@@ -44,18 +36,6 @@
         span {
             font-weight: 400;
             font-size: 18px;
-            color: $black-color;
-        }
-    }
-    &__price {
-        margin-top: 16px;
-        text-align: left;
-        font-weight: 700;
-        font-size: 18px;
-        color: $black-color;
-        span {
-            font-weight: 400;
-            font-size: 20px;
             color: $black-color;
         }
     }

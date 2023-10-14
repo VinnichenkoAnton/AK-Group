@@ -25,7 +25,6 @@ const Header = () => {
             <div className={classes.header__icn}>
               <img src={logo} alt="Логотип" />
             </div>
-            <h1 className={classes.header__title}>Оберіг</h1>
           </NavLink>
           <div className={classes.header__contacts}>
             {headerLinksList.map(({ id, href, Icn, text }) => {

@@ -13,7 +13,7 @@ const Spinner = () => {
         alt="Завантаження"
         viewBox="0 0 105 105"
         xmlns="http://www.w3.org/2000/svg"
-        fill="#3f3689"
+        fill="#002C77"
       >
         <circle cx="12.5" cy="12.5" r="12.5">
           <animate

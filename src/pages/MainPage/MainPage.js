@@ -2,14 +2,11 @@ import { Helmet } from 'react-helmet';
 
 import Portal from '../../components/Portal/Portal';
 import Header from '../../layouts/Header/Header';
-import Slider from '../../components/Slider/Slider';
-import NumericInfo from './sections/NumericInfo/NumericInfo';
+import Introduction from './sections/Introduction/Introduction';
 import ContactUs from '../../components/ContactUs/ContactUs';
 import Tabs from '../../components/Tabs/Tabs';
-import Advantages from './sections/Advantages/Advantages';
+import Partners from './sections/Partners/Partners';
 import Footer from '../../layouts/Footer/Footer';
-
-import { sliderImagesList } from '../../data/data';
 
 const MainPage = () => {
   return (
@@ -17,16 +14,15 @@ const MainPage = () => {
       <Helmet>
         <meta
           name="description"
-          content="Головна сторінка сайту Оберіг. Оберіг - охоронная компанія для фізичних осіб та організацій в с.Гатне"
+          content="AK GROUP INSURANCE BROKERS - БРОКЕРСЬКІ ПОСЛУГИ У СФЕРІ СТРАХУВАННЯ. АДМІНІСТРУВАННЯ ПРИ ВРЕГУЛЮВАННІ ЗБИТКІВ. ПРОФЕСІЙНИЙ КОНСАЛТИНГ"
         />
-        <title>Оберіг</title>
+        <title>AK GROUP INSURANCE BROKERS</title>
       </Helmet>
       <Portal children={<ContactUs />} portalId="userform" />
       <Header />
-      <Slider controls={true} sliderContent={sliderImagesList} />
-      <NumericInfo />
+      <Introduction />
       <Tabs />
-      <Advantages />
+      <Partners />
       <Footer />
     </>
   );
