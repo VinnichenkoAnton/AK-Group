@@ -1,12 +1,12 @@
-# Oberig Landing Page
+# AK Group Landing Page
 
-React project for Oberig Web-site
+React project for AK Group Web-site
 
 ## Installing / Getting started
 
-git clone https://github.com/VinnichenkoAnton/React-Oberig
+git clone https://github.com/VinnichenkoAnton/AK-Group
 
 ## Demo
 
 Home page
-![metaimg](https://user-images.githubusercontent.com/70747904/208289771-c5bc0010-85d9-4e4a-883f-195d1b3f1b80.jpg)
+![Screenshot](https://github.com/VinnichenkoAnton/AK-Group/assets/70747904/18cab7af-6907-48cf-942e-c4d8d4a985d2)
